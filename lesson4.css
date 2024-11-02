@@ -1,0 +1,17 @@
+p{
+    float: right;
+    margin-left: 200px;
+    margin-top: 0px;
+    text-align: justify;
+}
+img{
+    float: left;
+    width: 190px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+body{
+    height: 280px;
+    border:1px solid black;
+}

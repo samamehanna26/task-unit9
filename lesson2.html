@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Hotel</title>
+</head>
+<body>
+    <form action="lesson3.html">
+        <h1>Registration Form</h1>
+        <table>
+            <tr>
+                <td><b><label for="name">Name:</label></b></td>
+                <td><input type="text" name="name" id="name" required=""></td>
+            </tr>
+            <tr>
+                <td><b><label for="email">Email:</label></b></td>
+                <td><input type="email" name="email" id="email" required=""></td>
+            </tr>
+            <tr>
+                <td><b><label for="num">Phone Numbe:</label></b></td>
+                <td><input type="number" name="num" id="num" required=""></td>
+            </tr>
+        </table>
+        <b><h1>Reservation Details</h1></b>
+        <table>
+            <tr>
+                <td><b><label for="ad">Arrival Date:</label></b></td>
+                <td><input type="date" name="ad" id="ad" required=""></td>
+            </tr>
+            <tr>
+                <td><b><label for="dd">Departure Date:</label></b></td>
+                <td> <input type="date" name="dd" id="dd" required=""></td>
+            </tr>
+            <tr>
+                <td><b><label>Room Type:</label></b></td>
+                <td><select>
+                    <option>--Select Room--</option>
+                    <option>Room1</option>
+                    <option>Room2</option>
+                    <option>Room3</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td><b><label>Additional Services:</label></b></td>
+                <td><input type="checkbox" name="ch" id="ch">
+                    <label for="ch">Bearkfast(+$10)</label>
+                    <br>
+                    <input type="checkbox" name="ck" id="ck">
+                    <label for="ck">Free Wi-Fi</label></td>
+            </tr>
+            <tr>
+                <td><b><label>Payment Method:</label></b></td>
+                <td><input type="radio" name="ra" id="ra">
+                    <label for="ra">Cash on Arrival</label>
+                    <br> 
+                    <input type="radio" name="rd" id="rd">
+                    <label for="rd">Credit Card</label></td>
+            </tr>
+            <tr>
+                <td><b><label for="id">Upload image of personal ID:</label></b></td>
+                <td><input type="file" name="id" id="id" placeholder="choose file"></td>
+            </tr>
+            <tr>
+                <td><b><label for="sr">Special Requests:</label></b></td>
+                <td><textarea name="sr" id="sr" placeholder="Enter any special requests here"></textarea></td>
+            </tr>
+        </table>
+        <br><br>
+        <button type="submit">Book Now</button>
+        </form>
+</body>
+</html>
